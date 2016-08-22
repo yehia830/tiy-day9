@@ -1,4 +1,4 @@
-package tiyinc;
+package tiyinc.noobs;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -44,7 +44,7 @@ public class Day9Runner {
 
     public void testReadFile() {
         try {
-            File testFile = new File("src/tiyinc/Day9Runner.java");
+            File testFile = new File("src/tiyinc/noobs/Day9Runner.java");
             Scanner fileScanner = new Scanner(testFile);
             int numline = 0;
             while (fileScanner.hasNext()) {
